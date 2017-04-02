@@ -27,13 +27,16 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     mainwindow2.cpp \
     frage.cpp \
-    verlorenwindow.cpp
+    verlorenwindow.cpp \
+    gewonnenwindow.cpp
 
 HEADERS  += mainwindow.h \
     mainwindow2.h \
     frage.h \
-    verlorenwindow.h
+    verlorenwindow.h \
+    gewonnenwindow.h
 
 FORMS    += mainwindow.ui \
     mainwindow2.ui \
-    verlorenwindow.ui
+    verlorenwindow.ui \
+    gewonnenwindow.ui

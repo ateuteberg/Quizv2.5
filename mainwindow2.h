@@ -3,8 +3,9 @@
 
 #include <QMainWindow>
 #include "frage.h"
+#include "gewonnenwindow.h"
 #include "verlorenwindow.h"
-// Alle hier runter nur für Testzwecke
+#include <list>
 #include <utility>
 #include <vector>
 
@@ -32,10 +33,22 @@ private slots:
 private:
     Ui::MainWindow2 *ui;
     void buttonsBefuellen(QString f, std::vector<std::pair<QString, bool> > a);
+    void frageAuswaehlen();
+    int randomZahlGenerieren(int startzahl, int endzahl);
+    void verloren();
     bool a1bool;
     bool a2bool;
     bool a3bool;
     bool a4bool;
+    std::vector<Frage> fragenLeicht;
+    std::vector<Frage> fragenMittel;
+    std::vector<Frage> fragenSchwer;
+    int fragenCounter;
+    std::list<int> benutzteFragenLeicht;
+    std::list<int> benutzteFragenMittel;
+    std::list<int> benutzteFragenSchwer;
+    gewonnenwindow *gewonnenWindow;
+    VerlorenWindow *verlorenWindow;
 };
 
 #endif // MAINWINDOW2_H
