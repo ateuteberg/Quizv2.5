@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>601</width>
-    <height>294</height>
+    <width>778</width>
+    <height>434</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,15 +17,18 @@
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>150</y>
-      <width>301</width>
-      <height>101</height>
+      <x>60</x>
+      <y>230</y>
+      <width>331</width>
+      <height>141</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="QLabel" name="labela3">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
        <property name="text">
         <string>TextLabel</string>
        </property>
@@ -46,10 +49,10 @@
    <widget class="QWidget" name="verticalLayoutWidget_2">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>150</y>
-      <width>301</width>
-      <height>101</height>
+      <x>390</x>
+      <y>230</y>
+      <width>341</width>
+      <height>141</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -75,10 +78,10 @@
    <widget class="QWidget" name="verticalLayoutWidget_3">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>50</y>
-      <width>301</width>
-      <height>101</height>
+      <x>390</x>
+      <y>100</y>
+      <width>341</width>
+      <height>131</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -104,10 +107,10 @@
    <widget class="QWidget" name="verticalLayoutWidget_4">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>50</y>
-      <width>301</width>
-      <height>101</height>
+      <x>60</x>
+      <y>100</y>
+      <width>331</width>
+      <height>131</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_6">
@@ -135,8 +138,8 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>601</width>
-      <height>51</height>
+      <width>781</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="font">
@@ -157,8 +160,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>601</width>
-     <height>21</height>
+     <width>778</width>
+     <height>19</height>
     </rect>
    </property>
   </widget>

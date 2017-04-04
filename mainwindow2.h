@@ -8,6 +8,7 @@
 #include <list>
 #include <utility>
 #include <vector>
+#include <random>
 
 namespace Ui {
 class MainWindow2;
@@ -39,7 +40,7 @@ private:
     bool a1bool;
     bool a2bool;
     bool a3bool;
-    bool a4bool;
+    bool a4bool;   
     std::vector<Frage> fragenLeicht;
     std::vector<Frage> fragenMittel;
     std::vector<Frage> fragenSchwer;

@@ -18,7 +18,7 @@ void MainWindow::on_pushButton_clicked()
 {
    MainWindow2 *quiz = new MainWindow2(); // Hier läuft auch Konstruktor ab
 
-   quiz->show();
+   quiz->show(); // poniter erfordert delete
 }
 
 void MainWindow::on_MainWindow_destroyed()
